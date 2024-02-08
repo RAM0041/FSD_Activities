@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300&family=Didact+Gothic&family=Poppins:ital,wght@0,100;0,200;0,300;0,500;1,500&display=swap');
+*{
+    font-family: 'Cormorant', serif;
+    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    background-color: rgb(59, 75, 87) ;
+    height: 70px;
+    width: 1684px;
+    position: relative;
+    left: 3px;
+    color: rgb(255, 255, 255);
+    
+    .github-emo{
+        position: absolute;
+        left: 15px;
+        top: 17px;
+        color: white;
+        font-size: 180%;
+        
+    }
+    
+    .github-txt{
+        position: absolute;
+        left: 730px;
+        color: white;
+    }
+}
+
+.container{
+    background-color: rgb(194, 196, 183);
+    height: 720px;
+    width: 1684px;
+    position: relative;
+    left: 3px;
+    
+}
+
+.search{
+    width: 600px;
+    height: 50px;
+    color: darkgrey;
+    background-color: rgb(65, 64, 64);
+    position: relative;
+    left: 850px;
+    top: 50px;
+    border-radius: 12px;
+
+    .search1{
+        position: absolute;
+        left: 15px;
+        top: 13px;
+    }
+}
+
+.child-1{
+    height: 590px;
+    width: 290px;
+    border-radius: 12px;
+    position: absolute;
+    left: 80px;
+    top: 50px;
+    background-color: rgb(65, 64, 64);
+}
+
+.secContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.sec-child1, .sec-child2, .sec-child3{
+    background-color: rgb(65, 64, 64);
+    height: 200px;
+    width: 290px;
+    border-radius: 12px;
+    position: relative;
+    left: 700px;
+    top: 100px;
+}
+
+.child-2{
+    background-color: rgb(65, 64, 64);
+    border-radius: 12px;
+    height: 230px;
+    width: 950px;
+    position: relative;
+    left: 700px;
+    top: 150px;
+}
+
+
